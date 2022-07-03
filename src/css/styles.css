@@ -12,7 +12,8 @@ body {
   line-height: 1.5;
 }
 img {
-  height: 30px;
+  width: 30px;
+  margin-right: 5px;
 }
 #search-box {
   font: inherit;
@@ -23,8 +24,24 @@ img {
 }
 .country-list {
   list-style: none;
-  display: flex;
+  
 }
 .country-info-list {
   list-style: none;
 }
+.country-item {
+  display: flex;
+  align-items: center;
+}
+.country-info-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+  .country-info_el {
+    font-weight: bold;
+    
+  }
+  .info-name {
+    font-size: 45px;
+  }
